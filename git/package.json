@@ -1,0 +1,36 @@
+{
+  "name": "adzaagt-configurator",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export",
+    "cap:copy": "cap copy",
+    "cap:open:ios": "cap open ios",
+    "cap:open:android": "cap open android"
+  },
+  "dependencies": {
+    "next": "14.2.5",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "@react-three/fiber": "^8.15.17",
+    "@react-three/drei": "^9.102.7",
+    "three": "^0.160.0",
+    "jspdf": "^2.5.1",
+    "lucide-react": "^0.451.0",
+    "@capacitor/core": "^6.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "tailwindcss": "^3.4.10",
+    "postcss": "^8.4.41",
+    "autoprefixer": "^10.4.20",
+    "@capacitor/cli": "^6.1.2"
+  }
+}
